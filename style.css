@@ -1,0 +1,68 @@
+:root {
+    font-size: 10px;
+}
+
+* {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+/* Nav Bar Design */
+header {
+  padding: 0 24rem;
+}
+.nav-bar {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.nav-logo h3 {
+  color: #0b0223;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.nav-g {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-links,
+.nav-logo,
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.nav-logo img {
+  height: 4rem;
+}
+.nav-menu ul {
+  display: flex;
+}
+
+.nav-menu a {
+  color: #3c354f;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+}
+
+.nav-btn {
+  margin: 4rem 0;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 1.8rem 2.4rem;
+
+}
+
+.nav-btn h6{
+  color: #3c354f;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
