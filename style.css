@@ -382,6 +382,13 @@ footer {
 
 
 @media screen and (max-width: 576px) {
+  .btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid transparent;
+  width: fit-content;
+}
   nav {
     padding: 0 3rem;
   }
