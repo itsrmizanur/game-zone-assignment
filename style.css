@@ -52,7 +52,6 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .nav-links,
 .nav-logo,
 .nav-btn {
@@ -330,6 +329,11 @@ nav {
   padding: 10px 20px;
   border-radius: 50px;
   margin: 15px 10px;
+  transition: color .3s, border .3s;
+}
+.small-card:hover {
+  color: #FF42A5 ;
+  border: 1px solid #FF42A5 ;
 }
  
 .small-card h6 {
