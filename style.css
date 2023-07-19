@@ -28,6 +28,12 @@
 .btn-second {
   background: #4EC5F7;
 }
+.g-color {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 /* Nav Bar Design */
@@ -226,6 +232,42 @@ nav {
 .video-card-container img {
   width: 100%;
 }
+
+
+
+/* Play Instant Section  */
+.play-download {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 240px;
+  padding: 50px 0 100px 200px;
+}
+.play-download h3 {
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  margin-bottom: 20px;
+}
+.play-download p {
+  color: #534C64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.img-2 {
+  position: relative;
+  display: inline-block;
+}
+#veshe-thakbe {
+  position: absolute;
+  bottom: -100px;
+  left: -150px;
+}
+
+
 
 
 
