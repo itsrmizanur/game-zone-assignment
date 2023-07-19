@@ -66,3 +66,26 @@ header {
   font-size: 1.8rem;
   font-weight: 500;
 }
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 0 3rem;
+  }
+  /* Nav bar Design */
+  .nav-bar {
+    margin-top: 2rem;
+  }
+  .nav-bar,
+  .nav-links,
+  .nav-menu ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+}
